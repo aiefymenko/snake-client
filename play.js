@@ -10,7 +10,6 @@ const connect = function () {
   conn.on('connect', () => {
     conn.write('Hello from client!');
   });
-
   conn.on('data', (data) => {
     console.log('Server says: ', data);
   });
