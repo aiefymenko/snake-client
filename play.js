@@ -4,6 +4,5 @@ const { connect } = require("./client");
 const { setupInput } = require("./input");
 
 console.log("Connecting ...");
-connect();
 
-setupInput();
+setupInput(connect());//object returned from client is passed to setupInput to have it used in input.js 

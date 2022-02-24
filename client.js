@@ -9,18 +9,13 @@ const connect = function () {
   // interpret incoming data as text
   conn.setEncoding("utf8");
 
+  //printout name once connected
   conn.on('connect', () => {
     console.log('Successfully connected to game server');
     conn.write("Name: JSK");
   });
-  // conn.on('connect', () => {
-  //   console.log('Move: up');
-  //   conn.write("Move: up");
-  // });
-  // conn.on('connect', () => {
-  //   console.log('Move: right');
-  //   conn.write("Move: right");
-  // });
+
+  //printout data from server once connected
   conn.on('data', (data) => {
     console.log('Server says: ', data);
   });
@@ -28,5 +23,7 @@ const connect = function () {
   return conn;
 };
 
-module.exports = {connect};
+
+
+module.exports = { connect };
 
