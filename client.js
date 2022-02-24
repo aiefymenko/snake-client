@@ -13,6 +13,14 @@ const connect = function () {
     console.log('Successfully connected to game server');
     conn.write("Name: JSK");
   });
+  // conn.on('connect', () => {
+  //   console.log('Move: up');
+  //   conn.write("Move: up");
+  // });
+  // conn.on('connect', () => {
+  //   console.log('Move: right');
+  //   conn.write("Move: right");
+  // });
   conn.on('data', (data) => {
     console.log('Server says: ', data);
   });
