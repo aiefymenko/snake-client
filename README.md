@@ -8,8 +8,8 @@ Before you can run this client, you will need to be running the server side whic
 
 ## Final Product
 
-!["final project"](<img width="1440" alt="Screen Shot 2022-02-24 at 8 10 02 PM" src="https://user-images.githubusercontent.com/95830044/155637010-1600428d-01ba-4f8c-9570-740b0705a3ef.png">)
-!["final project with key pressed"](<img width="1440" alt="Screen Shot 2022-02-24 at 8 11 07 PM" src="https://user-images.githubusercontent.com/95830044/155637173-0fd804e6-4e66-4484-8076-c4eda8702db1.png">)
+!["final project"](https://user-images.githubusercontent.com/95830044/155637010-1600428d-01ba-4f8c-9570-740b0705a3ef.png)
+!["final project with key pressed"](https://user-images.githubusercontent.com/95830044/155637173-0fd804e6-4e66-4484-8076-c4eda8702db1.png)
 
 
 ## Getting Started
@@ -18,6 +18,9 @@ Before you can run this client, you will need to be running the server side whic
 - Run the development snake client using the `node play.js` command and don't forget that you need to specify your name in command line.
 - Press "r" to "reload" your snake
 - Press "spacebar" to see how your snake "jumps"
+- Don't hit the wall, it's deadly
+- Press "CTRL" + "C" if you have enough eaten for today
+- Don't "idle" or do :)
 
 
 ## Acknowledgements
